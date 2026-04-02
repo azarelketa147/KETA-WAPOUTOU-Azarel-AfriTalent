@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histoire</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- Fond animé -->
+      <canvas id="network"></canvas>
+
+<!-- ================= HEADER ================= -->
+     <header>
+    <!-- Barre de navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+<!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      AfriTalent
+    </a>
+<!-- Bouton menu mobile -->
+    <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menu">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+ <!-- Liens de navigation -->
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="freelances.html">Freelances</a></li>
+        <li class="nav-item"><a class="nav-link" href="tarifs.html">Tarifs</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+
+      </ul>
+
+     <!-- Boutons connexion / inscription -->
+    <div class="d-flex gap-2 ms-lg-5">
+        <a href="contact.html" class="btn btn-outline-light">
+            Se connecter
+        </a>
+
+        <a href="contact.html" class="btn btn-primary">
+            S'inscrire
+        </a>
+    </div>
+    <ul>
+
+    <li class="nav-item">
+        <!-- Bouton Dark / Light Mode -->
+        <button id="themeToggle" class="btn btn-sm btn-outline-light ms-3">
+          <i class="bi bi-moon-fill"></i>
+        </button>
+    </li>
+    </ul>
+  </div>
+ </div>
+</nav>
+</header>
+
+   <main>
+    <!--SECTION HERO-->
+    <section class="castor fade-in">
+        <div class="overlay"></div>
+        <div class="shadow">
+
+            <h1>GAMEHAVEN</h1>
+
+            <!-- Description du site -->
+            <p>
+                Entrez dans un univers sombre rempli de missions, 
+                de combats furtifs et d'ennemis redoutables.
+            </p>
+
+            <!-- Bouton principal-->
+            <button>Jouer maintenant</button>
+
+        </div>
+
+    </section>
+
+    <!-- ============ HISTOIRE ============-->
+    
+         <h2 class="text-center mt-4">NOTRE HISTOIRE</h2>
+
+   <section class="heros fade-in">
+
+    <!-- Texte de présentation -->
+    <div class="heros-text">
+        <h2>De la passion est né un univers</h2>
+        <p>
+            GAMEHAVEN est né en 2026 d'une simple idée : créer des jeux mémorables.
+        </p>
+        <p>
+            Nous sommes une équipe passionné de jeux vidéo, d'art et de technologie.
+        </p>
+        <p>
+            Aujourd'hui, notre mission est de concevoir des expériences immersives.
+        </p>
+        
+    </div>
+
+    <!-- Image illustrative-->
+    <div class="imgs">
+        <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop"
+         alt="Illustration gaming">
+    </div>
+
+   </section>
+
+   <!-- ========= EQUIPE =========-->
+
+   <section class="team fade-in">
+    <h1>L'EQUIPE</h1>
+    <h2>Les visages derrière l'aventure</h2>
+
+    <!-- Conteneur des membres-->
+    <div class="teams">
+
+        <!-- Membre 1 -->
+        <div class="team-1">
+            <img src="images/Ahmed.jpeg" alt="Photo du témoin1">
+            <p>Ahmed Khalil</p>
+            <p>Directeur créatif</p>
+            <p>Passionné par la narration de l'univers des jeux.</p>
+        </div>
+         
+        <!-- Membre 2 -->
+        <div class="team-1">
+            <img src="images/samira.jpeg" alt="Photo du témoin2">
+            <p>Samira TCHAMA</p>
+            <p>Directeur créatif</p>
+            <p>Passionné par la narration de l'univers des jeux.</p>
+        </div>
+        
+        <!-- Membre 3 -->
+        <div class="team-1">
+            <img src="images/Henrietta.jpeg" alt="Photo du témoin2">
+            <p>Henrietta KETA</p>
+            <p>Directrice artistique</p>
+            <p>Passionné par la narration de l'univers des jeux.</p>
+        </div>
+
+        <!-- Membre 4 -->
+        <div class="team-1">
+            <img src="images/andré.jpeg" alt="Photo du témoin3">
+            <p>Andréas KETA</p>
+            <p>Développeur Lead</p>
+            <p>Passionné par la narration de l'univers des jeux.</p>
+         </div>
+
+        </div>
+    </section>
+
+        <!-- ============== VALEURS ========== -->
+
+        <section class="values fade-in">
+            <h1>NOS VALEURS</h1>
+            <h2>Ce qui nous anime chaque jour</h2>
+            
+            <!-- Grille des valeurs -->
+            <div class="valeur-grid">
+
+                <!-- Valeur 1 -->
+                <div class="value">
+                    <i class="bi bi-lightning-charge-fill"></i>  
+                    <h3>Accessibilité</h3>
+                    <p>Pour tous.</p>
+                </div>
+                
+                 <!-- Valeur 2 -->
+                <div class="value"> 
+                    <i class="bi bi-people-fill"></i> 
+                    <h3>Communauté</h3>
+                    <p>Créer du lien.</p>
+                </div>
+                
+                 <!-- Valeur 3 -->
+                <div class="value">
+                    <i class="bi bi-trophy-fill"></i> 
+                     <h3>Excellence</h3>
+                     <p>Qualité maximale.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CHIFFRES CLES ========== -->
+        <section class="states fade-in">
+
+            <h1>CHIFFRES CLES</h1>
+            <h2>GAMEHAVEN en chiffres</h2>
+
+             <!-- ========= STATISTIQUES ===========-->
+            <div class="states-grid">
+
+                <div class="stat">
+                    <div id="count1" class="counter">0</div>
+                    <span class="span">Joeurs</span>
+                </div>
+
+                <div class="stat">
+                    <div id="count2" class="counter">0</div>
+                    <span class="span">Jeux publiés</span>
+                </div>
+
+                <div class="stat">
+                    <div id="count3" class="counter">0</div>
+                    <span class="span">Téléchargements</span>
+                </div>
+
+                <div class="stat">
+                    <div id="count4" class="counter">0</div>
+                    <span class="span">Note</span>
+                </div>
+
+                <div class="stat">
+                    <div id="count5" class="counter">0</div>
+                    <span class="span">Récompenses</span>
+                </div>
+
+                <div class="stat">
+                    <div id="count6" class="counter">0</div>
+                    <span class="span">Ans</span>
+                </div>
+
+            </div>
+        </section>
+    </main>
+       
+    <!-- ======= FOOTER ====== -->
+       <footer class="bg-dark text-light pt-5 pb-3 fade-in">
+    <div class="container">
+
+        <div class="row">
+
+            <!-- AfriTalent -->
+            <div class="col-md-3 mb-4">
+                <h3>AfriTalent</h3>
+                <p>
+                    Plateforme qui connecte les freelances africains
+                    aux entreprises et porteurs de projets.
+                </p>
+            </div>
+
+            <!-- Liens utiles -->
+            <div class="col-md-3 mb-4">
+                <h3>Liens utiles</h3>
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-light">Accueil</a></li>
+                    <li><a href="freelances.html" class="text-light">Freelances</a></li>
+                    <li><a href="tarifs.html" class="text-light">Tarifs</a></li>
+                    <li><a href="contact.html" class="text-light">Contact</a></li>
+                    <li><a href="about.html" class="text-light">À propos</a></li>
+                </ul>
+            </div>
+
+            <!-- Ressources -->
+            <div class="col-md-3 mb-4">
+                <h3>Ressources</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light">Blog</a></li>
+                    <li><a href="#" class="text-light">FAQ</a></li>
+                    <li><a href="#" class="text-light">Support</a></li>
+                    <li><a href="#" class="text-light">Confidentialité</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-md-3 mb-4">
+                <h3>Contact</h3>
+                <p><i class="bi bi-telephone-fill"></i> +221-77-357-04-76</p>
+                <p><i class="bi bi-envelope-fill"></i> azarelketadk@gmail.com</p>
+                <p><i class="bi bi-geo-alt-fill"></i> Dakar, Sénégal</p>
+
+                <div class="d-flex gap-3 fs-4 social-icons">
+                      <a href="https://www.twitter.com" target="_blank">
+                         <i class="bi bi-twitter-x"></i>
+                    </a>
+                    <a href="https://www.threads.net" target="_blank">
+                        <i class="bi bi-threads"></i> 
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://www.whatsapp.com" target="_blank">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+       <!-- Copyright -->
+        <p class="text-center mb-0">
+            © <span id="year"></span> AfriTalent - Tous droits réservés
+        </p>
+
+    </div>
+</footer>
+
+        <!--============ Bouton retour en haut de page =============-->
+ <a href="#" class="Boutons">
+     <i class="bi bi-arrow-up-circle-fill"></i>
+ </a>
+    <!-- ============= SCRIPTS ============== -->
+
+    <!-- Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript principal -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>

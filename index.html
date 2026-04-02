@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Feuille de style personnalisée -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Fond animé -->
+    <canvas id="network"></canvas>
+
+<header>
+
+       <!-- Barre de navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+<!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      AfriTalent
+    </a>
+<!-- Bouton menu mobile -->
+    <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menu">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+<!-- Liens de navigation -->
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="freelances.html">Freelances</a></li>
+        <li class="nav-item"><a class="nav-link" href="tarifs.html">Tarifs</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+       
+     </ul>
+<!-- Boutons connexion / inscription -->
+    <div class="d-flex gap-2 ms-lg-5">
+        <a href="contact.html" class="btn btn-outline-light">
+            Se connecter
+        </a>
+
+        <a href="contact.html" class="btn btn-primary">
+            S'inscrire
+        </a>
+    </div>
+<!-- Bouton Dark / Light Mode -->
+    <ul>
+     <li class="nav-item">
+        <button id="themeToggle" class="btn btn-sm btn-outline-light ms-3">
+            <i class="bi bi-moon-fill"></i>    
+        </button>
+    </li>
+    </ul>
+   </div>
+   </div>
+  </nav>
+</header>
+
+    <main class="container mt-5 pt-5">
+
+        <!-- HERO -->
+    <section class="hero fade-in">
+
+        <div class="hero-content">
+            <h1>VIVEZ L'EXPERIENCE <br><span class="violet">DU JEU ULTIME</span></h1>
+
+            <p>
+                Rejoignez une communauté passionnée, découvrez nos services gaming
+                et améliorez vos performances.
+            </p>
+
+            <a href="#" class="btn btn-explorer btn-lg">
+                Explorer 
+            </a>
+
+             <a href="#" class="btn btn-demo btn-lg">
+                  Voir la démo
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="images/background.jpg" alt="background">
+        </div>
+
+    </section>
+
+    <!-- ========= Statistques =========-->
+    <section class="bob fade-in">
+         <h2>Nos statistques</h2>
+        <div class="starts">
+            <!-- Nombre de freelances -->
+            <div class="start-card">
+                <!--Compteur 1-->
+                <div id="count7" class="counter">+0</div>
+                <p>Freelances</p>
+                <span>Rejoingnez la communauté</span>
+            </div>
+            
+            <!-- Nombre d'entreprise -->
+             <div class="start-card">
+                <div id="count8" class="counter">+0</div>
+                <p>Entreprises</p>
+                <span>Croissance rapide</span>
+            </div>
+
+            <!-- Nombres de missions réalisées -->
+             <div class="start-card">
+                 <div id="count10" class="counter">+0</div>
+                <p>Missions réalisées</p>
+                <span>Résultats prouvés</span>
+            </div>
+
+        </div>
+    </section>
+
+<!-- ===== SECTION COMMENT ÇA MARCHE ===== -->
+<section class="how-it-works fade-in">
+<!-- Titre principal de la section -->
+    <h2>Comment ça marche ?</h2>
+<!-- Grille type "bento" pour organiser les étapes -->
+    <div class="bento-grid">
+        <!-- ===== ÉTAPE 1 (Grande carte) ===== -->
+        <div class="bento-card large">
+            <h2>01</h2>
+            <i class="bi bi-person-plus-fill"></i>
+            <h3>Créer un compte</h3>
+            <p>
+                Inscrivez-vous gratuitement sur GAMEHAVEN et
+                personnalisez votre profil pour rejoindre
+                la communauté des joueurs.
+            </p>
+        </div>
+
+ <!-- ===== ÉTAPE 2 ===== -->
+        <div class="bento-card">
+            <h4>02</h4>
+            <i class="bi bi-controller"></i>
+            <h3>Choisir un mode</h3>
+            <p>
+                Explorez les tournois, les parties multijoueurs
+                ou les événements spéciaux disponibles.
+            </p>
+        </div>
+  <!-- ===== ÉTAPE 3 ===== -->
+        <div class="bento-card">
+            <h4>03</h4>
+            <i class="bi bi-people-fill"></i>
+            <h3>Rejoindre la communauté</h3>
+            <p>
+                Discutez avec d'autres joueurs,
+                créez des équipes et participez
+                à des défis exclusifs.
+            </p>
+        </div>
+  <!-- ===== ÉTAPE 4 (CARTE LARGE) ===== -->
+        <div class="bento-card wide">
+            <h4>04</h4>
+            <i class="bi bi-trophy-fill"></i>
+            <h3>Gagner et progresser</h3>
+            <p>
+                Améliorez votre classement, remportez des récompenses
+                et suivez vos statistiques pour devenir
+                l'un des meilleurs joueurs de GAMEHAVEN.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+   <!-- CATÉGORIES -->
+<section class="categories fade-in">
+  <!-- Titre de la section -->
+    <h2>Catégories de services</h2>
+ <!-- Grille Bootstrap avec espacement entre les éléments -->
+    <div class="row g-4">
+ <!-- ===== CATÉGORIE 1 ===== -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="category-card">
+                <!-- Icône Bootstrap Icons -->
+                <i class="bi bi-controller"></i>
+                <!-- Nom de la catégorie -->
+                <h3>Tournois E-sport</h3>
+                  <!-- Description / statistique -->
+                <p>120 événements actifs</p>
+            </div>
+        </div>
+ <!-- ===== CATÉGORIE 2 ===== -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="category-card">
+                <i class="bi bi-trophy-fill"></i>
+                <h3>Compétitions</h3>
+                <p>85 compétitions disponibles</p>
+            </div>
+        </div>
+ <!-- ===== CATÉGORIE 3 ===== -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="category-card">
+                <i class="bi bi-broadcast"></i>
+                <h3>Streaming</h3>
+                <p>300 streamers en ligne</p>
+            </div>
+        </div>
+ <!-- ===== CATÉGORIE 4 ===== -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="category-card">
+                <i class="bi bi-people-fill"></i>
+                <h3>Communauté</h3>
+                <p>5000 membres actifs</p>
+            </div>
+        </div>
+ <!-- ===== CATÉGORIE 5 ===== -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="category-card">
+                <i class="bi bi-joystick"></i>
+                <h3>Jeux Multijoueurs</h3>
+                <p>200 salons de jeu</p>
+            </div>
+        </div>
+ <!-- ===== CATÉGORIE 6 ===== -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="category-card">
+                <i class="bi bi-award-fill"></i>
+                <h3>Classements</h3>
+                <p>50 ligues compétitives</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- TÉMOIGNAGES -->
+<!-- TÉMOIGNAGES -->
+<section class="testimonials fade-in">
+
+    <h2>Témoignages</h2>
+
+    <div id="testimonialCarousel" class="carousel slide">
+
+        <div class="carousel-inner">
+
+            <!-- Témoignage 1 -->
+            <div class="carousel-item active">
+                <div class="text-center">
+
+                    <img src="images/tony.jpeg" class="rounded-circle mb-3" width="80" height="80" alt="tony">
+
+                    <h2>KETA Tony</h2>
+                    <p class="text-light mb-1">Freelance</p>
+
+                    <p>"GAMEHAVEN nous a permis de toucher une communauté de joueurs active et engagée."</p>
+                    <div class="stars text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Témoignage 2 -->
+            <div class="carousel-item">
+                <div class="text-center">
+
+                    <img src="images/témoin3.png" class="rounded-circle mb-3" width="80" height="80" alt="temoin3">
+
+                    <h2>SIALE Juliana</h2>
+                    <p class="text-light mb-1">Entreprise</p>
+
+                    <p>"Les tournois organisés sur GAMEHAVEN sont incroyables. L'ambiance est géniale et les récompenses motivantes.."</p>
+
+                    <div class="stars text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Témoignage 3 -->
+            <div class="carousel-item">
+                <div class="text-center">
+
+                    <img src="images/andré.jpeg" class="rounded-circle mb-3" width="80" height="80" alt="andre">
+
+                    <h2>KETA Andréas</h2>
+                    <p class="text-light mb-1">Freelance</p>
+
+                    <p>"Une plateforme incontournable pour tous les passionnés de jeux vidéo."</p>
+                    <div class="stars text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+    <footer class="bg-dark text-light pt-5 pb-3 fade-in">
+    <div class="container">
+
+        <div class="row">
+
+            <!-- AfriTalent -->
+            <div class="col-md-3 mb-4">
+                <h3>AfriTalent</h3>
+                <p>
+                    Plateforme qui connecte les freelances africains
+                    aux entreprises et porteurs de projets.
+                </p>
+            </div>
+
+            <!-- Liens utiles -->
+            <div class="col-md-3 mb-4">
+                <h3>Liens utiles</h3>
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-light">Accueil</a></li>
+                    <li><a href="freelances.html" class="text-light">Freelances</a></li>
+                    <li><a href="tarifs.html" class="text-light">Tarifs</a></li>
+                    <li><a href="contact.html" class="text-light">Contact</a></li>
+                    <li><a href="about.html" class="text-light">À propos</a></li>
+                </ul>
+            </div>
+
+            <!-- Ressources -->
+            <div class="col-md-3 mb-4">
+                <h3>Ressources</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light">Blog</a></li>
+                    <li><a href="#" class="text-light">FAQ</a></li>
+                    <li><a href="#" class="text-light">Support</a></li>
+                    <li><a href="#" class="text-light">Confidentialité</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-md-3 mb-4">
+                <h3>Contact</h3>
+                <p><i class="bi bi-telephone-fill"></i> +221-77-357-04-76</p>
+                <p><i class="bi bi-envelope-fill"></i> azarelketadk@gmail.com</p>
+                <p><i class="bi bi-geo-alt-fill"></i> Dakar, Sénégal</p>
+            <!-- Réseaux sociaux -->
+                <div class="d-flex gap-3 fs-4 social-icons">
+                      <a href="https://www.twitter.com" target="_blank">
+                         <i class="bi bi-twitter-x"></i>
+                    </a>
+                    <a href="https://www.threads.net" target="_blank">
+                        <i class="bi bi-threads"></i> 
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://www.whatsapp.com" target="_blank">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+<!-- Copyright -->
+        <p class="text-center mb-0">
+            © <span id="year"></span> AfriTalent - Tous droits réservés
+        </p>
+
+    </div>
+</footer>
+
+        <!--============ Bouton retour en haut de page =============-->
+ <a href="#" class="Boutons">
+     <i class="bi bi-arrow-up-circle-fill"></i>
+ </a>
+
+<!-- ================= SCRIPTS ================= -->
+ <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript principal -->
+    <script src="js/main.js"></script>
+</body>
+</html>
