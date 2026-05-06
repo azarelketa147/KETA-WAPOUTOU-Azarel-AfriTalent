@@ -276,3 +276,4 @@ bouton.addEventListener("click", function (e) {
     document.getElementById("message").value = "";
   }
 });
+
