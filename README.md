@@ -1,223 +1,173 @@
-\# AfriTalent – GAMEHAVEN
+#  GAMEHAVEN
 
-Plateforme freelance gaming — connecter les talents africains aux opportunités créatives
-Auteur : Azarel KETA-WAPOUTOU
-Promotion : L1CS — ISI
+**Site vitrine dédié à l'univers du gaming**
 
+Découvrez les dernières actualités, les univers de jeux, les tendances gaming et rejoignez une communauté de passionnés.
 
+## Aperçu du site
 
-\##  Aperçu du site
+### Page d'accueil
 
+![Accueil](images/capture1.png)
 
+### Page Contact
 
-\### Page d’accueil
+![Contact](images/capture2.png)
 
-!\[Accueil](images/capture1.png)
+##  Table des matières
 
+- [Présentation](#présentation)
+- [Objectif](#objectif)
+- [Public cible](#public-cible)
+- [Palette de couleurs](#palette-de-couleurs)
+- [Typographies](#typographies)
+- [Architecture du projet](#architecture-du-projet)
+- [Technologies utilisées](#technologies-utilisées)
+- [Fonctionnalités](#fonctionnalités)
+- [Bootstrap & CSS avancé](#bootstrap--css-avancé)
+- [JavaScript](#javascript)
+- [Perspectives](#perspectives)
+- [Auteur](#auteur)
 
+## Présentation
 
-\###  Contact page
+**GAMEHAVEN** est un site web vitrine consacré à l'univers du gaming.
 
-!\[Aperçu](images/capture2.png)
+Le projet permet aux visiteurs de :
 
+- Découvrir différents univers de jeux vidéo
+- Consulter des informations sur les jeux populaires
+- Explorer les différentes rubriques du site
+- Contacter les administrateurs grâce à un formulaire
+- Profiter d'une interface moderne, responsive et intuitive
 
+Le site est entièrement responsive et s'adapte aux ordinateurs, tablettes et smartphones.
 
-\##  Table des matières
+##  Objectif
 
+Ce projet a été réalisé dans le cadre de la formation **L1CS - ISI** afin de mettre en pratique :
 
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Bootstrap 5
+- Git & GitHub
 
-\- \[Présentation](#présentation)
+## Public cible
 
-\- \[Objectif](#objectif)
+| Public | Description |
+|---------|-------------|
+| Passionnés de jeux vidéo | Découvrir les nouveautés du gaming |
+| Joueurs occasionnels | Explorer différents univers de jeux |
+| Fans d'e-sport | Suivre les tendances et les compétitions |
 
-\- \[Public cible](#public-cible)
+## Palette de couleurs
 
-\- \[Palette de couleurs](#palette-de-couleurs)
+| Élément | Couleur | Code |
+|---------|----------|------|
+| Fond principal | Noir profond | `#0A0E1A` |
+| Cartes | Violet foncé | `#2D1E4E` |
+| Couleur principale | Violet néon | `#8F3DFF` |
+| Couleur secondaire | Doré | `#F4C63D` |
+| Texte principal | Blanc cassé | `#F8F9FA` |
+| Texte secondaire | Gris clair | `#ADB5BD` |
 
-\- \[Typographies](#typographies)
+##  Typographies
 
-\- \[Architecture du site](#architecture-du-site)
+| Élément | Police |
+|---------|---------|
+| Titres | Orbitron |
+| Texte | Poppins |
 
-\- \[Technologies utilisées](#technologies-utilisées)
+##  Architecture du projet
 
-\- \[Fonctionnalités JavaScript](#fonctionnalités-javascript)
-
-\- \[Bootstrap \& CSS avancé](#bootstrap--css-avancé)
-
-\- \[Workflow Git](#workflow-git)
-
-\- \[Difficultés rencontrées](#difficultés-rencontrées)
-
-\- \[Ressources utilisées](#ressources-utilisées)
-
-\- \[Perspectives](#perspectives)
-
-\- \[Auteur](#auteur)
-
-
-
-\##  Présentation
-
-
-
-\*\*GAMEHAVEN\*\* est un site web dédié à l'univers du gaming. Il permet aux joueurs de découvrir des jeux, de suivre les actualités, de consulter les univers de jeux et de rejoindre une communauté de passionnés.  
-
-Le site propose une interface moderne, interactive et \*\*responsive\*\* (ordinateurs, tablettes et smartphones).
-
-
-
-\##  Objectif
-
-
-
-Créer un site vitrine multi-pages avec :
-
-
-
-\- HTML, CSS, JavaScript et Bootstrap 5
-
-\- Mode \*\*clair / sombre\*\* persistant
-
-\- Formulaire de contact \*\*validé en JS\*\*
-
-\- Animations au \*\*défilement\*\* (scroll)
-
-\- Système de \*\*filtrage\*\* des freelances
-
-
-
-\##  Public cible
-
-
-
-| Type | Description |
-
-|------|-------------|
-
-| \*\*Passionnés de jeux vidéo\*\* | Joueurs réguliers suivant les tendances et actualités |
-
-| \*\*Joueurs occasionnels\*\* | Joueurs souhaitant découvrir de nouveaux jeux |
-
-| \*\*Fans de compétitions\*\* | Intéressés par les tournois, équipes et événements |
-
-
-
-\## Palette de couleurs
-
-
-
-| Rôle              | Couleur        | Code hex   |
-
-|-------------------|----------------|------------|
-
-| Fond principal    | Noir profond   | `#0A0E1A`  |
-
-| Cartes \& panneaux | Violet foncé   | `#2D1E4E`  |
-
-| Accent (CTA, titres) | Violet néon | `#8F3DFF`  |
-
-| Accent premium    | Doré           | `#F4C63D`  |
-
-| Texte principal   | Blanc cassé    | `#F8F9FA`  |
-
-| Texte secondaire  | Gris clair     | `#ADB5BD`  |
-
-
-
-\##  Typographies
-
-
-
-| Élément | Police | Justification |
-
-|---------|--------|---------------|
-
-| Titres (h1–h6) | Orbitron | Style moderne, technologique et gaming |
-
-| Corps de texte | Poppins | Lisibilité optimale |
-
-
-
-\##  Architecture du site
-
-
-
-afritalent/
-
+GAMEHAVEN/
+│
 ├── index.html
-
-├── freelances.html
-
-├── tarifs.html
-
 ├── about.html
-
+├── freelances.html
+├── tarifs.html
 ├── contact.html
-
+│
 ├── css/
-
 │   └── style.css
-
+│
 ├── js/
-
 │   └── main.js
-
+│
 ├── images/
-
+│   ├── capture1.png
+│   └── capture2.png
+│
 └── README.md
 
+##  Technologies utilisées
 
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Bootstrap 5.3
+- Git
+- GitHub
 
-\##  Technologies utilisées
+##  Fonctionnalités
 
+-  Navigation responsive
+-  Mode clair / sombre
+-  Animations au défilement
+-  Validation JavaScript du formulaire
+-  Filtrage dynamique
+-  Navbar responsive
+-  Design moderne
 
+##  Bootstrap & CSS avancé
 
-\- HTML5
+Le projet utilise Bootstrap 5 afin de créer :
 
-\- CSS3
+- Une barre de navigation responsive
+- Des cartes modernes
+- Une grille responsive
+- Des boutons stylisés
+- Des formulaires ergonomiques
 
-\- JavaScript (ES6)
+Le CSS personnalisé apporte :
 
-\- Bootstrap 5.3
+- Des animations
+- Des effets au survol
+- Une palette de couleurs gaming
+- Une meilleure expérience utilisateur
 
-\- Git \& GitHub
+##  JavaScript
 
+Le fichier `main.js` gère notamment :
 
+- Le changement de thème (Dark / Light)
+- La sauvegarde du thème
+- Les animations au scroll
+- La validation du formulaire
+- Le filtrage dynamique
 
-\##  Fonctionnalités
+## Perspectives
 
+Les améliorations prévues sont :
 
+- Authentification des utilisateurs
+- Base de données
+- Backend Node.js
+- Chat en temps réel
+- Application mobile
+- Tableau de bord administrateur
 
-\- Dark mode
+##  Auteur
 
-\- Animations scroll
+**Azarel KETA-WAPOUTOU**
 
-\- Formulaire validé
+Étudiant en **Licence 1 Informatique (L1CS - ISI)**
 
-\- Filtrage dynamique
+Projet réalisé dans le cadre de la formation en développement web.
 
-\- Navbar interactive
+##  Démo
 
+**Voir le site en ligne :**
 
-
-\##  Perspectives
-
-
-
-\- Backend Node.js
-
-\- Authentification
-
-\- Base de données
-
-\- Chat temps réel
-
-\- Application mobile
-
-
-
-
-
-
-
-
+https://azarelketa147.github.io/KETA-WAPOUTOU-Azarel-AfriTalent/
